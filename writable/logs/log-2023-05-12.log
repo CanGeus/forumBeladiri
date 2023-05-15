@@ -1,0 +1,17 @@
+CRITICAL - 2023-05-12 09:41:39 --> Too few arguments to function App\Controllers\Pages::forum_about(), 0 passed in C:\Users\cangeus\Desktop\kese\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Pages.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pages->forum_about()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cangeus\\Desktop\\kese\\public\\index.php')
+CRITICAL - 2023-05-12 09:41:44 --> Invalid file: "forum.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('forum.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('forum', [], true)
+ 3 APPPATH\Controllers\Pages.php(37): view('forum', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pages->forum_about('1')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cangeus\\Desktop\\kese\\public\\index.php')

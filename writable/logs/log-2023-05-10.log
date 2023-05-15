@@ -1,0 +1,29 @@
+CRITICAL - 2023-05-10 09:16:39 --> Invalid file: "index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('index.php', [], true)
+ 3 APPPATH\Controllers\Pages.php(12): view('index.php', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pages->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cangeus\\Desktop\\kese\\public\\index.php')
+CRITICAL - 2023-05-10 17:09:07 --> Unsupported operand types: string + string
+in APPPATH\Controllers\Pages.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pages->about('Tarung-Drajat')
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cangeus\\Desktop\\kese\\public\\index.php')
+CRITICAL - 2023-05-10 17:39:31 --> Undefined variable $about
+in APPPATH\Views\about.php on line 16.
+ 1 APPPATH\Views\about.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $about', 'C:\\Users\\cangeus\\Desktop\\kese\\app\\Views\\about.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\cangeus\\Desktop\\kese\\app\\Views\\about.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('about.php', [], true)
+ 5 APPPATH\Controllers\Pages.php(21): view('about.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pages->about('Tarung-Drajat')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cangeus\\Desktop\\kese\\public\\index.php')

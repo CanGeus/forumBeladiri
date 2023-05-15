@@ -1,0 +1,507 @@
+ERROR - 2023-05-13 12:10:42 --> mysqli_sql_exception: Table 'dbforum.users' doesn't exist in C:\Users\cangeus\Desktop\kese\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\cangeus\Desktop\kese\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\Users\cangeus\Desktop\kese\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\Users\cangeus\Desktop\kese\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\Users\cangeus\Desktop\kese\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\Users\cangeus\Desktop\kese\system\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\cangeus\Desktop\kese\system\Validation\Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique('cangeus', 'username', Array, NULL, 'username')
+#6 C:\Users\cangeus\Desktop\kese\system\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('username', 'username', 'cangeus', Array, Array)
+#7 C:\Users\cangeus\Desktop\kese\system\Controller.php(140): CodeIgniter\Validation\Validation->run()
+#8 C:\Users\cangeus\Desktop\kese\app\Controllers\User.php(14): CodeIgniter\Controller->validate(Array)
+#9 C:\Users\cangeus\Desktop\kese\system\CodeIgniter.php(934): App\Controllers\User->register()
+#10 C:\Users\cangeus\Desktop\kese\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#11 C:\Users\cangeus\Desktop\kese\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\cangeus\Desktop\kese\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\cangeus\Desktop\kese\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cangeu...')
+#14 {main}
+CRITICAL - 2023-05-13 12:10:42 --> Table 'dbforum.users' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT 1
+FROM `users`
+WHERE `username` = \'cangeus\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `users`
+WHERE `username` = \'cangeus\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `users`
+WHERE `username` = \'cangeus\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `users`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique('cangeus', 'username', [...], null, 'username')
+ 7 SYSTEMPATH\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('username', 'username', 'cangeus', [...], [...])
+ 8 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH\Controllers\User.php(14): CodeIgniter\Controller->validate([...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->register()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cangeus\\Desktop\\kese\\public\\index.php')
+ERROR - 2023-05-13 12:11:31 --> mysqli_sql_exception: Table 'dbforum.users' doesn't exist in C:\Users\cangeus\Desktop\kese\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\cangeus\Desktop\kese\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\Users\cangeus\Desktop\kese\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\Users\cangeus\Desktop\kese\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\Users\cangeus\Desktop\kese\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\Users\cangeus\Desktop\kese\system\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\cangeus\Desktop\kese\system\Validation\Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique('cangeus', 'username', Array, NULL, 'username')
+#6 C:\Users\cangeus\Desktop\kese\system\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('username', 'username', 'cangeus', Array, Array)
+#7 C:\Users\cangeus\Desktop\kese\system\Controller.php(140): CodeIgniter\Validation\Validation->run()
+#8 C:\Users\cangeus\Desktop\kese\app\Controllers\User.php(14): CodeIgniter\Controller->validate(Array)
+#9 C:\Users\cangeus\Desktop\kese\system\CodeIgniter.php(934): App\Controllers\User->register()
+#10 C:\Users\cangeus\Desktop\kese\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#11 C:\Users\cangeus\Desktop\kese\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\cangeus\Desktop\kese\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\cangeus\Desktop\kese\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cangeu...')
+#14 {main}
+CRITICAL - 2023-05-13 12:11:31 --> Table 'dbforum.users' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT 1
+FROM `users`
+WHERE `username` = \'cangeus\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `users`
+WHERE `username` = \'cangeus\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `users`
+WHERE `username` = \'cangeus\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `users`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique('cangeus', 'username', [...], null, 'username')
+ 7 SYSTEMPATH\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('username', 'username', 'cangeus', [...], [...])
+ 8 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH\Controllers\User.php(14): CodeIgniter\Controller->validate([...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->register()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cangeus\\Desktop\\kese\\public\\index.php')
+ERROR - 2023-05-13 12:13:04 --> mysqli_sql_exception: Table 'dbforum.users' doesn't exist in C:\Users\cangeus\Desktop\kese\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\cangeus\Desktop\kese\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\Users\cangeus\Desktop\kese\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\Users\cangeus\Desktop\kese\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\Users\cangeus\Desktop\kese\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\Users\cangeus\Desktop\kese\system\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\cangeus\Desktop\kese\system\Validation\Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique('cangeus', 'username', Array, NULL, 'username')
+#6 C:\Users\cangeus\Desktop\kese\system\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('username', 'username', 'cangeus', Array, Array)
+#7 C:\Users\cangeus\Desktop\kese\system\Controller.php(140): CodeIgniter\Validation\Validation->run()
+#8 C:\Users\cangeus\Desktop\kese\app\Controllers\User.php(13): CodeIgniter\Controller->validate(Array)
+#9 C:\Users\cangeus\Desktop\kese\system\CodeIgniter.php(934): App\Controllers\User->register()
+#10 C:\Users\cangeus\Desktop\kese\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#11 C:\Users\cangeus\Desktop\kese\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\cangeus\Desktop\kese\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\cangeus\Desktop\kese\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cangeu...')
+#14 {main}
+CRITICAL - 2023-05-13 12:13:04 --> Table 'dbforum.users' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT 1
+FROM `users`
+WHERE `username` = \'cangeus\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `users`
+WHERE `username` = \'cangeus\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `users`
+WHERE `username` = \'cangeus\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `users`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique('cangeus', 'username', [...], null, 'username')
+ 7 SYSTEMPATH\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('username', 'username', 'cangeus', [...], [...])
+ 8 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH\Controllers\User.php(13): CodeIgniter\Controller->validate([...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->register()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cangeus\\Desktop\\kese\\public\\index.php')
+ERROR - 2023-05-13 12:14:59 --> mysqli_sql_exception: Table 'dbforum.user' doesn't exist in C:\Users\cangeus\Desktop\kese\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\cangeus\Desktop\kese\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\Users\cangeus\Desktop\kese\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\Users\cangeus\Desktop\kese\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\Users\cangeus\Desktop\kese\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\Users\cangeus\Desktop\kese\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\cangeus\Desktop\kese\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\cangeus\Desktop\kese\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Users\cangeus\Desktop\kese\app\Controllers\User.php(51): CodeIgniter\Model->insert(Array)
+#8 C:\Users\cangeus\Desktop\kese\system\CodeIgniter.php(934): App\Controllers\User->register()
+#9 C:\Users\cangeus\Desktop\kese\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#10 C:\Users\cangeus\Desktop\kese\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\cangeus\Desktop\kese\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\cangeus\Desktop\kese\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cangeu...')
+#13 {main}
+CRITICAL - 2023-05-13 12:14:59 --> Table 'dbforum.user' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `user` (`username`, `password`, `name`) VALUES (\'cangeus\', \'$2y$10$NB69WqnqBL75Eg3sk0JmxuJ7BpvtoOM2LsEIPlKyAlae.bq8WQYJy\', \'aditya candra permana\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `user` (`username`, `password`, `name`) VALUES (\'cangeus\', \'$2y$10$NB69WqnqBL75Eg3sk0JmxuJ7BpvtoOM2LsEIPlKyAlae.bq8WQYJy\', \'aditya candra permana\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `user` (`username`, `password`, `name`) VALUES (\'cangeus\', \'$2y$10$NB69WqnqBL75Eg3sk0JmxuJ7BpvtoOM2LsEIPlKyAlae.bq8WQYJy\', \'aditya candra permana\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`username`, `password`, `name`) VALUES (:username:, :password:, :name:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\User.php(51): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->register()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cangeus\\Desktop\\kese\\public\\index.php')
+ERROR - 2023-05-13 12:15:27 --> mysqli_sql_exception: Table 'dbforum.users' doesn't exist in C:\Users\cangeus\Desktop\kese\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\cangeus\Desktop\kese\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\Users\cangeus\Desktop\kese\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\Users\cangeus\Desktop\kese\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\Users\cangeus\Desktop\kese\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\Users\cangeus\Desktop\kese\system\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\cangeus\Desktop\kese\system\Validation\Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique('cangeus', 'username', Array, NULL, 'username')
+#6 C:\Users\cangeus\Desktop\kese\system\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('username', 'username', 'cangeus', Array, Array)
+#7 C:\Users\cangeus\Desktop\kese\system\Controller.php(140): CodeIgniter\Validation\Validation->run()
+#8 C:\Users\cangeus\Desktop\kese\app\Controllers\User.php(13): CodeIgniter\Controller->validate(Array)
+#9 C:\Users\cangeus\Desktop\kese\system\CodeIgniter.php(934): App\Controllers\User->register()
+#10 C:\Users\cangeus\Desktop\kese\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#11 C:\Users\cangeus\Desktop\kese\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\cangeus\Desktop\kese\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\cangeus\Desktop\kese\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cangeu...')
+#14 {main}
+CRITICAL - 2023-05-13 12:15:27 --> Table 'dbforum.users' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT 1
+FROM `users`
+WHERE `username` = \'cangeus\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `users`
+WHERE `username` = \'cangeus\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `users`
+WHERE `username` = \'cangeus\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `users`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique('cangeus', 'username', [...], null, 'username')
+ 7 SYSTEMPATH\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('username', 'username', 'cangeus', [...], [...])
+ 8 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH\Controllers\User.php(13): CodeIgniter\Controller->validate([...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->register()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cangeus\\Desktop\\kese\\public\\index.php')
+INFO - 2023-05-13 12:17:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-13 12:17:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-13 12:18:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-13 12:18:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-13 12:19:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-13 12:19:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-13 12:19:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-13 12:19:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-13 12:19:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-13 12:19:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-13 12:20:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-13 12:20:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-13 12:20:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-13 12:20:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-13 12:20:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-13 12:20:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-13 12:21:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-13 12:21:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-13 12:21:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-13 12:21:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-13 12:21:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-13 12:21:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-13 12:21:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-13 12:21:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-13 12:21:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-13 12:22:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-13 12:22:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-13 12:22:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-13 12:22:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-13 12:22:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-13 12:22:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-13 12:23:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-13 12:23:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-13 12:28:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-05-13 12:29:08 --> mysqli_sql_exception: Table 'dbforum.users' doesn't exist in C:\Users\cangeus\Desktop\kese\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\cangeus\Desktop\kese\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\Users\cangeus\Desktop\kese\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\Users\cangeus\Desktop\kese\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\Users\cangeus\Desktop\kese\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\Users\cangeus\Desktop\kese\system\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\cangeus\Desktop\kese\system\Validation\Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique('cangeus', 'username', Array, NULL, 'username')
+#6 C:\Users\cangeus\Desktop\kese\system\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('username', 'username', 'cangeus', Array, Array)
+#7 C:\Users\cangeus\Desktop\kese\system\Controller.php(140): CodeIgniter\Validation\Validation->run()
+#8 C:\Users\cangeus\Desktop\kese\app\Controllers\User.php(19): CodeIgniter\Controller->validate(Array)
+#9 C:\Users\cangeus\Desktop\kese\system\CodeIgniter.php(934): App\Controllers\User->register()
+#10 C:\Users\cangeus\Desktop\kese\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#11 C:\Users\cangeus\Desktop\kese\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\cangeus\Desktop\kese\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\cangeus\Desktop\kese\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cangeu...')
+#14 {main}
+CRITICAL - 2023-05-13 12:29:08 --> Table 'dbforum.users' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT 1
+FROM `users`
+WHERE `username` = \'cangeus\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `users`
+WHERE `username` = \'cangeus\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `users`
+WHERE `username` = \'cangeus\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `users`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique('cangeus', 'username', [...], null, 'username')
+ 7 SYSTEMPATH\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('username', 'username', 'cangeus', [...], [...])
+ 8 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH\Controllers\User.php(19): CodeIgniter\Controller->validate([...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->register()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cangeus\\Desktop\\kese\\public\\index.php')
+INFO - 2023-05-13 12:31:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-05-13 12:31:41 --> mysqli_sql_exception: Table 'dbforum.users' doesn't exist in C:\Users\cangeus\Desktop\kese\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\cangeus\Desktop\kese\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\Users\cangeus\Desktop\kese\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\Users\cangeus\Desktop\kese\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\Users\cangeus\Desktop\kese\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\Users\cangeus\Desktop\kese\system\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\cangeus\Desktop\kese\system\Validation\Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique('cangeus', 'username', Array, NULL, 'username')
+#6 C:\Users\cangeus\Desktop\kese\system\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('username', 'username', 'cangeus', Array, Array)
+#7 C:\Users\cangeus\Desktop\kese\system\Controller.php(140): CodeIgniter\Validation\Validation->run()
+#8 C:\Users\cangeus\Desktop\kese\app\Controllers\User.php(19): CodeIgniter\Controller->validate(Array)
+#9 C:\Users\cangeus\Desktop\kese\system\CodeIgniter.php(934): App\Controllers\User->register()
+#10 C:\Users\cangeus\Desktop\kese\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#11 C:\Users\cangeus\Desktop\kese\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\cangeus\Desktop\kese\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\cangeus\Desktop\kese\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cangeu...')
+#14 {main}
+CRITICAL - 2023-05-13 12:31:41 --> Table 'dbforum.users' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT 1
+FROM `users`
+WHERE `username` = \'cangeus\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1
+FROM `users`
+WHERE `username` = \'cangeus\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1
+FROM `users`
+WHERE `username` = \'cangeus\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT 1
+FROM `users`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Validation\StrictRules\Rules.php(206): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\Validation\Validation.php(312): CodeIgniter\Validation\StrictRules\Rules->is_unique('cangeus', 'username', [...], null, 'username')
+ 7 SYSTEMPATH\Validation\Validation.php(170): CodeIgniter\Validation\Validation->processRules('username', 'username', 'cangeus', [...], [...])
+ 8 SYSTEMPATH\Controller.php(140): CodeIgniter\Validation\Validation->run()
+ 9 APPPATH\Controllers\User.php(19): CodeIgniter\Controller->validate([...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->register()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cangeus\\Desktop\\kese\\public\\index.php')
+INFO - 2023-05-13 12:33:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-13 12:33:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-05-13 12:33:58 --> mysqli_sql_exception: Table 'dbforum.user' doesn't exist in C:\Users\cangeus\Desktop\kese\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\cangeus\Desktop\kese\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\Users\cangeus\Desktop\kese\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\Users\cangeus\Desktop\kese\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\Users\cangeus\Desktop\kese\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\Users\cangeus\Desktop\kese\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\cangeus\Desktop\kese\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\cangeus\Desktop\kese\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\Users\cangeus\Desktop\kese\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 C:\Users\cangeus\Desktop\kese\app\Controllers\User.php(56): CodeIgniter\BaseModel->save(Array)
+#9 C:\Users\cangeus\Desktop\kese\system\CodeIgniter.php(934): App\Controllers\User->register()
+#10 C:\Users\cangeus\Desktop\kese\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#11 C:\Users\cangeus\Desktop\kese\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\cangeus\Desktop\kese\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\cangeus\Desktop\kese\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cangeu...')
+#14 {main}
+CRITICAL - 2023-05-13 12:33:58 --> Table 'dbforum.user' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `user` (`username`, `password`, `name`) VALUES (\'cangeus\', \'$2y$10$fTa4WXRVlXTcuvcSuCpIaugoTfT9VxwfI58GJr/dgNtUD7GvWSQG2\', \'aditya candra permana\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `user` (`username`, `password`, `name`) VALUES (\'cangeus\', \'$2y$10$fTa4WXRVlXTcuvcSuCpIaugoTfT9VxwfI58GJr/dgNtUD7GvWSQG2\', \'aditya candra permana\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `user` (`username`, `password`, `name`) VALUES (\'cangeus\', \'$2y$10$fTa4WXRVlXTcuvcSuCpIaugoTfT9VxwfI58GJr/dgNtUD7GvWSQG2\', \'aditya candra permana\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`username`, `password`, `name`) VALUES (:username:, :password:, :name:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\User.php(56): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->register()
+11 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+12 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cangeus\\Desktop\\kese\\public\\index.php')
+INFO - 2023-05-13 12:36:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-13 12:36:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-13 12:36:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-13 12:37:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-13 12:39:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-13 12:44:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-13 12:44:10 --> Attempt to read property "password" on array
+in APPPATH\Controllers\User.php on line 70.
+ 1 APPPATH\Controllers\User.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "password" on array', 'C:\\Users\\cangeus\\Desktop\\kese\\app\\Controllers\\User.php', 70)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cangeus\\Desktop\\kese\\public\\index.php')
+CRITICAL - 2023-05-13 12:46:35 --> Attempt to read property "password" on array
+in APPPATH\Controllers\User.php on line 70.
+ 1 APPPATH\Controllers\User.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "password" on array', 'C:\\Users\\cangeus\\Desktop\\kese\\app\\Controllers\\User.php', 70)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->login()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cangeus\\Desktop\\kese\\public\\index.php')
+INFO - 2023-05-13 12:51:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-13 12:51:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-13 12:55:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-13 12:55:58 --> Undefined variable $login
+in APPPATH\Views\forum_home.php on line 16.
+ 1 APPPATH\Views\forum_home.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $login', 'C:\\Users\\cangeus\\Desktop\\kese\\app\\Views\\forum_home.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\cangeus\\Desktop\\kese\\app\\Views\\forum_home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('forum_home', [], true)
+ 5 APPPATH\Controllers\Pages.php(29): view('forum_home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pages->forum()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cangeus\\Desktop\\kese\\public\\index.php')
+INFO - 2023-05-13 12:56:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-13 12:57:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-13 12:57:08 --> View themes, no current section.
+in SYSTEMPATH\View\View.php on line 394.
+ 1 APPPATH\Views\forum.php(156): CodeIgniter\View\View->endSection()
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\cangeus\\Desktop\\kese\\app\\Views\\forum.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('forum', [], true)
+ 5 APPPATH\Controllers\Pages.php(37): view('forum', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pages->forum_about('pencaksilat')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cangeus\\Desktop\\kese\\public\\index.php')
+INFO - 2023-05-13 12:57:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-13 12:58:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-13 12:58:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-13 12:58:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-13 12:59:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-13 12:59:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-13 12:59:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-13 12:59:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-13 13:00:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-13 13:06:54 --> View themes, no current section.
+in SYSTEMPATH\View\View.php on line 394.
+ 1 APPPATH\Views\forum.php(156): CodeIgniter\View\View->endSection()
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\cangeus\\Desktop\\kese\\app\\Views\\forum.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('forum', [], true)
+ 5 APPPATH\Controllers\Pages.php(37): view('forum', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pages->forum_about('pencaksilat')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cangeus\\Desktop\\kese\\public\\index.php')
+CRITICAL - 2023-05-13 13:10:16 --> View themes, no current section.
+in SYSTEMPATH\View\View.php on line 394.
+ 1 APPPATH\Views\forum.php(156): CodeIgniter\View\View->endSection()
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\cangeus\\Desktop\\kese\\app\\Views\\forum.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('forum', [], true)
+ 5 APPPATH\Controllers\Pages.php(37): view('forum', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pages->forum_about('pencaksilat')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cangeus\\Desktop\\kese\\public\\index.php')
+INFO - 2023-05-13 13:16:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-13 13:16:24 --> View themes, no current section.
+in SYSTEMPATH\View\View.php on line 394.
+ 1 APPPATH\Views\forum.php(156): CodeIgniter\View\View->endSection()
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\cangeus\\Desktop\\kese\\app\\Views\\forum.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('forum', [], true)
+ 5 APPPATH\Controllers\Pages.php(38): view('forum', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pages->forum_about('pencaksilat')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cangeus\\Desktop\\kese\\public\\index.php')
+INFO - 2023-05-13 13:16:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-13 13:16:25 --> View themes, no current section.
+in SYSTEMPATH\View\View.php on line 394.
+ 1 APPPATH\Views\forum.php(156): CodeIgniter\View\View->endSection()
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\cangeus\\Desktop\\kese\\app\\Views\\forum.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('forum', [], true)
+ 5 APPPATH\Controllers\Pages.php(38): view('forum', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pages->forum_about('pencaksilat')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cangeus\\Desktop\\kese\\public\\index.php')
+INFO - 2023-05-13 13:16:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-13 13:16:26 --> View themes, no current section.
+in SYSTEMPATH\View\View.php on line 394.
+ 1 APPPATH\Views\forum.php(156): CodeIgniter\View\View->endSection()
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\cangeus\\Desktop\\kese\\app\\Views\\forum.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('forum', [], true)
+ 5 APPPATH\Controllers\Pages.php(38): view('forum', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pages->forum_about('pencaksilat')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cangeus\\Desktop\\kese\\public\\index.php')
+INFO - 2023-05-13 13:16:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-13 13:16:27 --> View themes, no current section.
+in SYSTEMPATH\View\View.php on line 394.
+ 1 APPPATH\Views\forum.php(156): CodeIgniter\View\View->endSection()
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\cangeus\\Desktop\\kese\\app\\Views\\forum.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('forum', [], true)
+ 5 APPPATH\Controllers\Pages.php(38): view('forum', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pages->forum_about('pencaksilat')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cangeus\\Desktop\\kese\\public\\index.php')

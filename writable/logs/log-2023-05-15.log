@@ -1,0 +1,292 @@
+INFO - 2023-05-15 00:00:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-15 00:00:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-15 00:01:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-15 00:01:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-15 00:01:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-15 00:02:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-15 09:17:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-15 09:18:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-15 09:29:59 --> Undefined array key "imgh"
+in APPPATH\Views\home.php on line 11.
+ 1 APPPATH\Views\home.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "imgh"', 'C:\\Users\\cangeus\\Desktop\\kese\\app\\Views\\home.php', 11)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\cangeus\\Desktop\\kese\\app\\Views\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home.php', [], true)
+ 5 APPPATH\Controllers\Pages.php(26): view('home.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pages->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cangeus\\Desktop\\kese\\public\\index.php')
+INFO - 2023-05-15 09:30:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-15 09:31:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-15 09:31:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-15 09:34:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-15 09:35:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-15 09:39:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-15 09:41:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-15 09:44:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-15 09:48:52 --> Array to string conversion
+in APPPATH\Views\home.php on line 66.
+ 1 APPPATH\Views\home.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\Users\\cangeus\\Desktop\\kese\\app\\Views\\home.php', 66)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\cangeus\\Desktop\\kese\\app\\Views\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home.php', [], true)
+ 5 APPPATH\Controllers\Pages.php(26): view('home.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pages->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cangeus\\Desktop\\kese\\public\\index.php')
+CRITICAL - 2023-05-15 09:49:15 --> Array to string conversion
+in APPPATH\Views\home.php on line 66.
+ 1 APPPATH\Views\home.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\Users\\cangeus\\Desktop\\kese\\app\\Views\\home.php', 66)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\cangeus\\Desktop\\kese\\app\\Views\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home.php', [], true)
+ 5 APPPATH\Controllers\Pages.php(26): view('home.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pages->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cangeus\\Desktop\\kese\\public\\index.php')
+CRITICAL - 2023-05-15 09:49:23 --> Undefined array key "g"
+in APPPATH\Views\home.php on line 66.
+ 1 APPPATH\Views\home.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "g"', 'C:\\Users\\cangeus\\Desktop\\kese\\app\\Views\\home.php', 66)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\cangeus\\Desktop\\kese\\app\\Views\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home.php', [], true)
+ 5 APPPATH\Controllers\Pages.php(26): view('home.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pages->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cangeus\\Desktop\\kese\\public\\index.php')
+CRITICAL - 2023-05-15 09:49:48 --> Unsupported operand types: string + array
+in APPPATH\Views\home.php on line 66.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home.php', [], true)
+ 4 APPPATH\Controllers\Pages.php(26): view('home.php', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pages->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cangeus\\Desktop\\kese\\public\\index.php')
+INFO - 2023-05-15 09:49:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-15 09:53:25 --> Undefined array key 2
+in APPPATH\Views\home.php on line 66.
+ 1 APPPATH\Views\home.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', 'C:\\Users\\cangeus\\Desktop\\kese\\app\\Views\\home.php', 66)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\cangeus\\Desktop\\kese\\app\\Views\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home.php', [], true)
+ 5 APPPATH\Controllers\Pages.php(26): view('home.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pages->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cangeus\\Desktop\\kese\\public\\index.php')
+CRITICAL - 2023-05-15 09:54:03 --> Uninitialized string offset 4
+in APPPATH\Views\home.php on line 66.
+ 1 APPPATH\Views\home.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Uninitialized string offset 4', 'C:\\Users\\cangeus\\Desktop\\kese\\app\\Views\\home.php', 66)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\cangeus\\Desktop\\kese\\app\\Views\\home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('home.php', [], true)
+ 5 APPPATH\Controllers\Pages.php(26): view('home.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pages->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cangeus\\Desktop\\kese\\public\\index.php')
+INFO - 2023-05-15 09:54:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-15 09:55:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-15 09:55:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-15 09:55:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-15 09:55:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-15 09:56:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-15 09:56:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-15 09:56:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-15 09:56:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-15 09:56:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-15 09:57:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-15 09:57:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-15 09:58:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-15 09:58:10 --> Undefined variable $forum
+in APPPATH\Views\forum_home.php on line 70.
+ 1 APPPATH\Views\forum_home.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $forum', 'C:\\Users\\cangeus\\Desktop\\kese\\app\\Views\\forum_home.php', 70)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\cangeus\\Desktop\\kese\\app\\Views\\forum_home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('forum_home', [], true)
+ 5 APPPATH\Controllers\Pages.php(48): view('forum_home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pages->forum()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cangeus\\Desktop\\kese\\public\\index.php')
+INFO - 2023-05-15 09:59:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-15 09:59:03 --> Undefined variable $lastestdiskusi
+in APPPATH\Views\forum_home.php on line 81.
+ 1 APPPATH\Views\forum_home.php(81): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lastestdiskusi', 'C:\\Users\\cangeus\\Desktop\\kese\\app\\Views\\forum_home.php', 81)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\cangeus\\Desktop\\kese\\app\\Views\\forum_home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('forum_home', [], true)
+ 5 APPPATH\Controllers\Pages.php(49): view('forum_home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pages->forum()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cangeus\\Desktop\\kese\\public\\index.php')
+INFO - 2023-05-15 09:59:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-15 09:59:11 --> Undefined variable $id
+in APPPATH\Controllers\Pages.php on line 49.
+ 1 APPPATH\Controllers\Pages.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'C:\\Users\\cangeus\\Desktop\\kese\\app\\Controllers\\Pages.php', 49)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pages->forum()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cangeus\\Desktop\\kese\\public\\index.php')
+INFO - 2023-05-15 10:00:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-15 10:00:04 --> Undefined variable $id
+in APPPATH\Controllers\Pages.php on line 49.
+ 1 APPPATH\Controllers\Pages.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'C:\\Users\\cangeus\\Desktop\\kese\\app\\Controllers\\Pages.php', 49)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pages->forum()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cangeus\\Desktop\\kese\\public\\index.php')
+INFO - 2023-05-15 10:00:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-15 10:00:20 --> Undefined variable $d
+in APPPATH\Views\forum_home.php on line 89.
+ 1 APPPATH\Views\forum_home.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $d', 'C:\\Users\\cangeus\\Desktop\\kese\\app\\Views\\forum_home.php', 89)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\cangeus\\Desktop\\kese\\app\\Views\\forum_home.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('forum_home', [], true)
+ 5 APPPATH\Controllers\Pages.php(50): view('forum_home', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pages->forum()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cangeus\\Desktop\\kese\\public\\index.php')
+INFO - 2023-05-15 10:01:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-15 10:08:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-15 10:09:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-15 10:09:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-15 10:09:11 --> Undefined variable $d
+in APPPATH\Views\forum.php on line 108.
+ 1 APPPATH\Views\forum.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $d', 'C:\\Users\\cangeus\\Desktop\\kese\\app\\Views\\forum.php', 108)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\cangeus\\Desktop\\kese\\app\\Views\\forum.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('forum', [], true)
+ 5 APPPATH\Controllers\Pages.php(65): view('forum', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pages->forum_about('img', 'blog-img', 'lp1.png')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cangeus\\Desktop\\kese\\public\\index.php')
+INFO - 2023-05-15 10:13:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-15 10:13:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-15 10:13:47 --> Undefined variable $d
+in APPPATH\Views\forum.php on line 112.
+ 1 APPPATH\Views\forum.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $d', 'C:\\Users\\cangeus\\Desktop\\kese\\app\\Views\\forum.php', 112)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\cangeus\\Desktop\\kese\\app\\Views\\forum.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('forum', [], true)
+ 5 APPPATH\Controllers\Pages.php(65): view('forum', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pages->forum_about('img', 'blog-img', 'lp1.png')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cangeus\\Desktop\\kese\\public\\index.php')
+INFO - 2023-05-15 10:13:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-15 10:13:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-15 10:13:59 --> Undefined variable $d
+in APPPATH\Views\forum.php on line 112.
+ 1 APPPATH\Views\forum.php(112): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $d', 'C:\\Users\\cangeus\\Desktop\\kese\\app\\Views\\forum.php', 112)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\cangeus\\Desktop\\kese\\app\\Views\\forum.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('forum', [], true)
+ 5 APPPATH\Controllers\Pages.php(65): view('forum', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pages->forum_about('img', 'blog-img', 'lp1.png')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cangeus\\Desktop\\kese\\public\\index.php')
+INFO - 2023-05-15 10:15:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-15 10:15:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-15 10:16:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-15 10:17:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-15 10:17:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-15 10:20:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-15 10:21:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-15 10:48:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-15 10:48:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-15 10:48:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-15 10:48:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-15 10:49:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-15 10:50:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-15 10:51:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-15 10:51:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-15 10:51:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-15 10:52:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-15 10:52:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-15 10:54:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-15 10:54:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-15 10:55:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-15 10:55:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-15 10:57:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-15 10:58:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-15 10:58:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-15 11:02:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-15 11:02:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-15 11:11:49 --> Cannot use object of type stdClass as array
+in APPPATH\Views\about.php on line 17.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('about.php', [], true)
+ 4 APPPATH\Controllers\Pages.php(35): view('about.php', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pages->about('6')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cangeus\\Desktop\\kese\\public\\index.php')
+CRITICAL - 2023-05-15 11:12:39 --> Array to string conversion
+in APPPATH\Views\about.php on line 44.
+ 1 APPPATH\Views\about.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\Users\\cangeus\\Desktop\\kese\\app\\Views\\about.php', 44)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\cangeus\\Desktop\\kese\\app\\Views\\about.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('about.php', [], true)
+ 5 APPPATH\Controllers\Pages.php(35): view('about.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pages->about('6')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cangeus\\Desktop\\kese\\public\\index.php')
+INFO - 2023-05-15 11:13:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-15 11:14:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-15 11:14:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-15 11:15:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-15 11:16:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-15 11:16:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-15 11:16:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-15 11:17:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-15 11:17:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-15 11:17:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-15 11:17:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-15 11:17:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-15 11:17:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-15 11:18:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-15 11:18:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-15 11:18:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-15 11:18:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-15 11:19:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-15 11:19:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-15 11:19:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-15 11:19:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-15 11:19:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-15 11:19:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-15 11:19:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-15 11:19:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-15 11:19:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-15 11:19:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-15 11:38:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-15 11:38:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
