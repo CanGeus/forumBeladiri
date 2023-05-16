@@ -1,0 +1,129 @@
+ERROR - 2023-05-16 01:01:28 --> mysqli_sql_exception: Table 'dbuts.beladiri' doesn't exist in C:\Users\cangeus\Desktop\kese\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\cangeus\Desktop\kese\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\cangeus\Desktop\kese\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\cangeus\Desktop\kese\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\cangeus\Desktop\kese\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\cangeus\Desktop\kese\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\cangeus\Desktop\kese\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\cangeus\Desktop\kese\app\Controllers\Pages.php(24): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\cangeus\Desktop\kese\system\CodeIgniter.php(934): App\Controllers\Pages->index()
+#8 C:\Users\cangeus\Desktop\kese\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#9 C:\Users\cangeus\Desktop\kese\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\cangeus\Desktop\kese\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\cangeus\Desktop\kese\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cangeu...')
+#12 {main}
+CRITICAL - 2023-05-16 01:01:28 --> Table 'dbuts.beladiri' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `beladiri`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `beladiri`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `beladiri`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `beladiri`', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Pages.php(24): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pages->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cangeus\\Desktop\\kese\\public\\index.php')
+ERROR - 2023-05-16 01:01:35 --> mysqli_sql_exception: Table 'dbuts.beladiri' doesn't exist in C:\Users\cangeus\Desktop\kese\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\cangeus\Desktop\kese\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\cangeus\Desktop\kese\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\cangeus\Desktop\kese\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\cangeus\Desktop\kese\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\cangeus\Desktop\kese\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\cangeus\Desktop\kese\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\cangeus\Desktop\kese\app\Controllers\Pages.php(24): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\cangeus\Desktop\kese\system\CodeIgniter.php(934): App\Controllers\Pages->index()
+#8 C:\Users\cangeus\Desktop\kese\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#9 C:\Users\cangeus\Desktop\kese\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\cangeus\Desktop\kese\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\cangeus\Desktop\kese\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cangeu...')
+#12 {main}
+CRITICAL - 2023-05-16 01:01:35 --> Table 'dbuts.beladiri' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `beladiri`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `beladiri`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `beladiri`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `beladiri`', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Pages.php(24): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pages->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cangeus\\Desktop\\kese\\public\\index.php')
+ERROR - 2023-05-16 01:02:01 --> mysqli_sql_exception: Table 'dbuts.beladiri' doesn't exist in C:\Users\cangeus\Desktop\kese\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\Users\cangeus\Desktop\kese\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\Users\cangeus\Desktop\kese\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\cangeus\Desktop\kese\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\cangeus\Desktop\kese\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\cangeus\Desktop\kese\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\cangeus\Desktop\kese\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\cangeus\Desktop\kese\app\Controllers\Pages.php(24): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\cangeus\Desktop\kese\system\CodeIgniter.php(934): App\Controllers\Pages->index()
+#8 C:\Users\cangeus\Desktop\kese\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#9 C:\Users\cangeus\Desktop\kese\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\cangeus\Desktop\kese\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\cangeus\Desktop\kese\system\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cangeu...')
+#12 {main}
+CRITICAL - 2023-05-16 01:02:01 --> Table 'dbuts.beladiri' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `beladiri`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `beladiri`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `beladiri`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `beladiri`', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Pages.php(24): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pages->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cangeus\\Desktop\\kese\\public\\index.php')
+CRITICAL - 2023-05-16 01:28:29 --> Undefined variable $d
+in APPPATH\Views\forum.php on line 115.
+ 1 APPPATH\Views\forum.php(115): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $d', 'C:\\Users\\cangeus\\Desktop\\kese\\app\\Views\\forum.php', 115)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\Users\\cangeus\\Desktop\\kese\\app\\Views\\forum.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('forum', [], true)
+ 5 APPPATH\Controllers\Pages.php(65): view('forum', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pages->forum_about('img', 'blog-img', 'lp1.png')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cangeus\\Desktop\\kese\\public\\index.php')
+CRITICAL - 2023-05-16 01:45:23 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\User.php(132): CodeIgniter\HTTP\Files\UploadedFile->move('img/core-img/')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->updateProfile()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cangeus\\Desktop\\kese\\public\\index.php')
+CRITICAL - 2023-05-16 01:55:27 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\User.php(128): CodeIgniter\HTTP\Files\UploadedFile->move('img/core-img/')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\User->updateProfile()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\cangeus\\Desktop\\kese\\public\\index.php')

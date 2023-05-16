@@ -8,7 +8,7 @@
         <!-- Single Hero Slide -->
         <?php foreach ($beladiri as $b) : ?>
             <a href="<?= base_url() ?>Pages/about/<?= $b['id'] ?>">
-                <div class="single-hero-slide bg-img slide-background-overlay" style="background-image: url(img/bg-img/<?= $b['imgh'] ?>);">
+                <div class="single-hero-slide bg-img slide-background-overlay" style="background-image: url(<?= base_url() ?>img/bg-img/<?= $b['imgh'] ?>);">
                     <div class="container h-100">
                         <div class="row h-100 align-items-end">
                             <div class="col-12">

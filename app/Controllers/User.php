@@ -114,29 +114,39 @@ class User extends BaseController
 
     public function updateProfile()
     {
-        if (!$this->validate([
+        if ($this->validate([
             'img' => [
-                'rules' => 'uploaded[img]|max_size[img,1024]|is_image[img]|mime_in[img,image/jpg,image/jpeg,image/png]',
+                'rules' => 'max_size[img,1024]|is_image[img]|mime_in[img,image/jpg,image/jpeg,image/png]',
                 'errors' => [
-                    'uploaded' => 'pilih gambar terlebih dahulu',
                     'max_size' => 'ukuran gambar terlalu besar',
                     'is_image' => 'yang anda pilin bukan file gambar',
                     'mime_in' => 'yang anda pilin bukan file gambar',
                 ]
             ]
         ])) {
+            $fileimg = $this->request->getFile('img');
+            $namaimg = $fileimg->getName();
+        } else {
             session()->setFlashdata('error', $this->validator->listErrors());
             return redirect()->back()->withInput();
         }
 
-        $fileimg = $this->request->getFile('img');
-        $fileimg->move('img/core-img');
-        $namaimg = $fileimg->getName();
-        $this->usermodel->save([
-            'username' => session()->get('username'),
-            'img' => $namaimg,
-        ]);
-        // $fileimg->move('img/core-img', $namaimg);
-        return redirect()->back()->with('massage', 'Data Berhasil di Simpan');
+        if (empty($namaimg)) {
+            $this->usermodel->save([
+                'username' => session()->get('username'),
+                'name' => $this->request->getVar('name'),
+                'email' => $this->request->getVar('email'),
+            ]);
+            return redirect()->back()->with('massage', 'Data Berhasil di Simpan');
+        } else {
+            $this->usermodel->save([
+                'username' => session()->get('username'),
+                'name' => $this->request->getVar('name'),
+                'email' => $this->request->getVar('email'),
+                'img' => $namaimg,
+            ]);
+            $fileimg->move('img/core-img');
+            return redirect()->back()->with('massage', 'Data Berhasil di Simpan');
+        }
     }
 }

@@ -47,13 +47,13 @@
                                 </div>
                                 <div class="form-group col-6">
                                     <label for="fullname">Full Name</label>
-                                    <input type="text" class="form-control" id="fullname" name="fullname" value="<?= $d['name'] ?>">
+                                    <input type="text" class="form-control" id="fullname" name="name" value="<?= $d['name'] ?>">
                                 </div>
                             </div>
                             <div class="d-flex col-12">
                                 <div class="form-group col-6">
                                     <label for="email">Email</label>
-                                    <input type="email" class="form-control" id="email" name="username" placeholder="<?= $d['email'] ?>">
+                                    <input type="email" class="form-control" id="email" name="email" placeholder="<?= $d['email'] ?>">
                                 </div>
                                 <div class="col-6">
                                     <button class="btn btn-primary">simpan</button>
